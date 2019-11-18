@@ -13,4 +13,4 @@ runcmd:
   - sudo apt-get -y install vim
 
   # Run nginx
-  - docker run -d -p 80:80 nginx
+  - docker run -d -p 80:80 caroll2695/nginx
